@@ -1,5 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="tech.princepatel2206.quotes">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    
    <application
         android:label="quotes"
         android:name="${applicationName}"
